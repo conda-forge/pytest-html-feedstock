@@ -1,7 +1,7 @@
 {% set name = "pytest-html" %}
-{% set version = "1.14.2" %}
+{% set version = "1.15.1" %}
 {% set hash_type = "sha256" %}
-{% set hash = "bf6672c2552b26059acf9cd678701c35de18bc1b20467940d830202e7fb1bc66" %}
+{% set hash = "9a1e9d90cb3b32b23d3e47b71df798cd82c1764bf72b9a428541d32aa665c0bf" %}
 
 package:
   name: {{ name }}
@@ -21,12 +21,12 @@ requirements:
     - python
     - setuptools
     - setuptools_scm
-    - pytest >=2.3
+    - pytest >=3.0
     - pytest-metadata
 
   run:
     - python
-    - pytest >=2.3
+    - pytest >=3.0
     - pytest-metadata
 
 test:
