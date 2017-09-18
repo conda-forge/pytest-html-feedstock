@@ -1,7 +1,7 @@
 {% set name = "pytest-html" %}
-{% set version = "1.15.1" %}
+{% set version = "1.15.2" %}
 {% set hash_type = "sha256" %}
-{% set hash = "9a1e9d90cb3b32b23d3e47b71df798cd82c1764bf72b9a428541d32aa665c0bf" %}
+{% set hash = "442decf9f256475b667a90269287e271558a74da06d690216c6f9ec572950c37" %}
 
 package:
   name: {{ name }}
@@ -44,3 +44,4 @@ extra:
   recipe-maintainers:
     - birdsarah
     - davehunt
+    - nicoddemus
