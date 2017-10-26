@@ -1,7 +1,7 @@
 {% set name = "pytest-html" %}
-{% set version = "1.15.2" %}
+{% set version = "1.16.0" %}
 {% set hash_type = "sha256" %}
-{% set hash = "442decf9f256475b667a90269287e271558a74da06d690216c6f9ec572950c37" %}
+{% set hash = "d973b5bc997f117bd55314d01f6e19433f06a4c405530aa7826481d03b778536" %}
 
 package:
   name: {{ name }}
