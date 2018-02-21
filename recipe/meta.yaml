@@ -1,7 +1,7 @@
 {% set name = "pytest-html" %}
-{% set version = "1.16.0" %}
+{% set version = "1.16.1" %}
 {% set hash_type = "sha256" %}
-{% set hash = "d973b5bc997f117bd55314d01f6e19433f06a4c405530aa7826481d03b778536" %}
+{% set hash = "d6ae1ae5d10158d290b603ccf46b5d103e93cf7d67df42bb7d6516fb4f1317f3" %}
 
 package:
   name: {{ name }}
@@ -15,6 +15,7 @@ source:
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
+  noarch: python
 
 requirements:
   build:
