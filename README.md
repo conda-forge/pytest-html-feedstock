@@ -14,12 +14,15 @@ Summary: pytest plugin for generating HTML reports
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-html-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-html-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-html-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-html-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-html/badges/version.svg)](https://anaconda.org/conda-forge/pytest-html)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-html/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-html)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pytest--html-green.svg)](https://anaconda.org/conda-forge/pytest-html) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytest-html.svg)](https://anaconda.org/conda-forge/pytest-html) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytest-html.svg)](https://anaconda.org/conda-forge/pytest-html) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytest-html.svg)](https://anaconda.org/conda-forge/pytest-html) |
 
 Installing pytest-html
 ======================
