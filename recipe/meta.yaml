@@ -19,13 +19,13 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - setuptools
     - setuptools_scm
     - pip
 
   run:
-    - python
+    - python >=3.6
     - pytest >=3.0
     - pytest-metadata
 
