@@ -1,7 +1,7 @@
 {% set name = "pytest-html" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 {% set hash_type = "sha256" %}
-{% set hash = "1428837592c94404e4112fbae76f6e512c35aab4b7d663dc3dd6ea58d2979710" %}
+{% set hash = "933da7a5e71e5eace9e475441ed88a684f20f6198aa36516cb947ac05edd9921" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: 1
+  number: 0
   script: python -m pip install . --no-deps --ignore-installed
   noarch: python
 
