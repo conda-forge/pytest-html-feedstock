@@ -1,6 +1,6 @@
 {% set name = "pytest-html" %}
-{% set version = "2.1.1" %}
-{% set hash = "6a4ac391e105e391208e3eb9bd294a60dd336447fd8e1acddff3a6de7f4e57c5" %}
+{% set version = "3.0.0" %}
+{% set hash = "407adfe8c748a6bb7e68a430ebe3766ffe51e43fc5442f78b261229c03078be4" %}
 
 package:
   name: {{ name }}
@@ -17,7 +17,7 @@ build:
   noarch: python
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - setuptools
     - setuptools_scm
