@@ -25,7 +25,7 @@ requirements:
 
   run:
     - python >=3.6
-    - pytest >=5.0
+    - pytest >=5.0,!=6.0.0
     - pytest-metadata
 
 test:
@@ -34,9 +34,8 @@ test:
 
 about:
   home: https://github.com/pytest-dev/pytest-html
-  license: MPL 2.0
-  license_file: LICENSE
-  license_family: OTHER
+  license: MPL-2.0
+  license_file: LICENSE  
   summary: pytest plugin for generating HTML reports
 
 extra:
