@@ -1,6 +1,6 @@
 {% set name = "pytest-html" %}
-{% set version = "3.0.0" %}
-{% set hash = "407adfe8c748a6bb7e68a430ebe3766ffe51e43fc5442f78b261229c03078be4" %}
+{% set version = "3.1.0" %}
+{% set hash = "8a7979e2411aac445870d8cad9a251ab3823bc14f77d065e9ce9a5dff86f697d" %}
 
 package:
   name: {{ name }}
@@ -25,7 +25,7 @@ requirements:
 
   run:
     - python >=3.6
-    - pytest >=5.0
+    - pytest >=5.0,!=6.0.0
     - pytest-metadata
 
 test:
@@ -34,9 +34,8 @@ test:
 
 about:
   home: https://github.com/pytest-dev/pytest-html
-  license: MPL 2.0
-  license_file: LICENSE
-  license_family: OTHER
+  license: MPL-2.0
+  license_file: LICENSE  
   summary: pytest plugin for generating HTML reports
 
 extra:
