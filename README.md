@@ -3,7 +3,7 @@ About pytest-html
 
 Home: https://github.com/pytest-dev/pytest-html
 
-Package license: MPL 2.0
+Package license: MPL-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-html-feedstock/blob/master/LICENSE.txt)
 
