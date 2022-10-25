@@ -25,7 +25,7 @@ requirements:
     - python >=3.6
     - pytest >=5.0,!=6.0.0
     - pytest-metadata
-    
+
 test:
   requires:
     - pip
