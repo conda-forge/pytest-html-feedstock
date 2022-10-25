@@ -1,18 +1,15 @@
-{% set name = "pytest-html" %}
 {% set version = "3.2.0" %}
-{% set hash = "c4e2f4bb0bffc437f51ad2174a8a3e71df81bbc2f6894604e604af18fbe687c3" %}
 
 package:
-  name: {{ name }}
+  name: pytest-html
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ hash }}
+  url: https://pypi.io/packages/source/p/pytest-html/pytest-html-{{ version }}.tar.gz
+  sha256: c4e2f4bb0bffc437f51ad2174a8a3e71df81bbc2f6894604e604af18fbe687c3
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install . --no-deps --ignore-installed
   noarch: python
 
@@ -24,13 +21,18 @@ requirements:
     - pip
 
   run:
+    - py>=1.8.2
     - python >=3.6
     - pytest >=5.0,!=6.0.0
     - pytest-metadata
-
+    
 test:
+  requires:
+    - pip
   imports:
     - pytest_html
+  commands:
+    - pip check
 
 about:
   home: https://github.com/pytest-dev/pytest-html
