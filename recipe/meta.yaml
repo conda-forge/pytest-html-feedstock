@@ -1,30 +1,31 @@
-{% set version = "3.2.0" %}
+{% set version = "4.0.0rc4" %}
 
 package:
   name: pytest-html
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/p/pytest-html/pytest-html-{{ version }}.tar.gz
-  sha256: c4e2f4bb0bffc437f51ad2174a8a3e71df81bbc2f6894604e604af18fbe687c3
+  url: https://pypi.io/packages/source/p/pytest-html/pytest_html-{{ version }}.tar.gz
+  sha256: 65a85883c295fb0e37f4335bacbe769d484623cbffc77da0be071d3449e4d774
 
 build:
-  number: 1
+  number: 0
   script: python -m pip install . --no-deps --ignore-installed
   noarch: python
 
 requirements:
   host:
-    - python >=3.6
-    - setuptools
-    - setuptools_scm
+    - python >=3.7
     - pip
+    - hatchling >=1.13.0
+    - hatch-vcs >=0.3.0
 
   run:
     - py >=1.8.2
-    - python >=3.6
-    - pytest >=5.0,!=6.0.0
-    - pytest-metadata
+    - python >=3.7
+    - pytest >=7.0.0
+    - pytest-metadata >=2.0.2
+    - jinja2 >=3.0.0
 
 test:
   requires:
