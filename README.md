@@ -1,11 +1,11 @@
-About pytest-html
-=================
+About pytest-html-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-html-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pytest-dev/pytest-html
 
 Package license: MPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-html-feedstock/blob/main/LICENSE.txt)
 
 Summary: pytest plugin for generating HTML reports
 
@@ -95,7 +95,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -143,7 +143,9 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@0xbe7a](https://github.com/0xbe7a/)
 * [@birdsarah](https://github.com/birdsarah/)
 * [@davehunt](https://github.com/davehunt/)
+* [@dbast](https://github.com/dbast/)
 * [@nicoddemus](https://github.com/nicoddemus/)
 
